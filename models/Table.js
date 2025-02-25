@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Chair = require('./chair');
+
 
 const tableSchema = new mongoose.Schema({
   name: {
