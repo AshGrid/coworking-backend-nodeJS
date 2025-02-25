@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Table = require('../models/Table');
-const Chair = require('../models/chair');
+const Chair = require('../models/Chair');
 const mongoose = require('mongoose');
 
 // Get all tables
