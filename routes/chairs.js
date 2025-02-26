@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Chair = require('../models/chair');
+const Chair = require('../models/Chair');
 const Table = require("../models/Table");
 
 router.put('/:chairId/toggle', async (req, res) => {

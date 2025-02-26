@@ -13,4 +13,4 @@ const chairSchema = new mongoose.Schema({
 });
 
 // Prevent OverwriteModelError
-module.exports = mongoose.models.Chair || mongoose.model('Chair', chairSchema);
+module.exports = mongoose.model('Chair', chairSchema);
